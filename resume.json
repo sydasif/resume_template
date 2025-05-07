@@ -62,5 +62,26 @@
       "language": "English",
       "proficiency": "Native"
     }
+  ],
+  "projects": [
+    {
+      "name": "Network Automation Platform",
+      "description": "Developed a centralized platform for automating network configurations across multiple data centers",
+      "technologies": ["Python", "Ansible", "REST APIs", "Git"],
+      "achievements": [
+        "Reduced configuration deployment time by 75%",
+        "Implemented version control for all network changes",
+        "Created self-service portal for common network requests"
+      ]
+    },
+    {
+      "name": "Kubernetes Network Monitor",
+      "description": "Built a custom monitoring solution for Kubernetes network policies and traffic flows",
+      "technologies": ["Go", "Kubernetes", "Prometheus", "Grafana"],
+      "achievements": [
+        "Improved network security visibility by 90%",
+        "Reduced mean time to resolution for network issues by 60%"
+      ]
+    }
   ]
 }

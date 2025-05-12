@@ -1,9 +1,17 @@
+"""
+Generates a PDF resume from a JSON data file and an HTML template.
+
+This script reads resume data from 'resume.json', renders it into an HTML
+template ('template.html'), and then converts the HTML to a PDF file
+named 'output.pdf' using pdfkit.
+"""
+
 import json
 
 import pdfkit
 from jinja2 import Template
 
-with open("resume.json") as file:  # Changed back to resume.json
+with open("resume.json") as file:
     resume = json.load(file)
 
 with open("template.html", "r", encoding="utf-8") as f:
